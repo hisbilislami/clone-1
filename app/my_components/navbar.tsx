@@ -8,11 +8,11 @@ const tinos = Tinos({
 });
 export default function Navbar() {
   return (
-    <div className="container">
+    <div className="container mx-auto relative">
       <div className="flex justify-between style={{height: '80px'}} items-center">
         <div className="inline-flex items-center">
           <GrHpeLabs className="text-5xl" />
-          <h2 className={`${tinos.className} text-2xl text-raisin-black`}>
+          <h2 className={`${tinos.className} text-4xl ml-5 text-raisin-black`}>
             LABOREX
           </h2>
         </div>
@@ -50,7 +50,7 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
-        <div className="inline-flex items-center space-x-4">
+        <div className="inline-flex items-center space-x-6">
           <FiSearch className="text-2xl text-raisin-black" />
           <button className="rounded-full bg-verdigris text-white py-2 px-4">
             Register
